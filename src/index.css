@@ -1,0 +1,16 @@
+body {
+  background-color: lightgray;
+}
+
+#all-products {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#all-products > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
